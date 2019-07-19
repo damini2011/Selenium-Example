@@ -1,0 +1,9 @@
+<suite name="Suite1" parallel="classes" thread-count="10">
+  <test name="Regression1"   >
+   <classes> 
+      <class name="com.orangeHRM.test.LoginTest" />  
+         <class name="com.orangeHRM.test.AddEmployeeTest" /> 
+   </classes>
+ </test>
+
+</suite>
